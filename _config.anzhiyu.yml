@@ -62,7 +62,9 @@ copy:
 #   name: link || icon
 social:
    Email: mailto:lyjcody@foxmail.com || fa-duotone fa-solid fa-envelope
-  # BiliBili: https://space.bilibili.com/372204786 || anzhiyu-icon-bilibili
+   RSS: atom.xml || fa-duotone fa-rss
+   QQ: tencent://Message/?Uin=410714630&amp;websiteName=local.edu.com:8888=&amp;Menu=yes || fa-brands fa-qq
+   Telegram: https://t.me/NeilBowM || fa-brands fa-telegram
 
 # 作者卡片 状态
 author_status:
@@ -105,8 +107,8 @@ docsearch:
 
 # Local search
 local_search:
-  enable: false
-  preload: false
+  enable: true
+  preload: true
   CDN:
 
 # Math (数学)
@@ -118,12 +120,12 @@ local_search:
 
 # MathJax
 mathjax:
-  enable: false
+  enable: true
   per_page: false
 
 # KaTeX
 katex:
-  enable: false
+  enable: true
   per_page: false
   hide_scrollbar: true
 
@@ -222,7 +224,7 @@ toc:
   post: true
   page: true
   number: true
-  expand: false
+  expand: true
   style_simple: false # for post
 
 post_copyright:
@@ -499,19 +501,19 @@ footer:
              link: /fcircle/
            - title: 留言板
              link: /comments/
-       - title: 协议
-         links:
-           - title: 隐私协议
-             link: /privacy/
-           - title: Cookies
-             link: /cookies/
-           - title: 版权协议
-             link: /copyright/
+       #- title: 协议
+         #links:
+          # - title: 隐私协议
+           #  link: /privacy/
+          # - title: Cookies
+          #  link: /cookies/
+          # - title: 版权协议
+           #  link: /copyright/
   footerBar:
-    enable: true
+    enable: false
     authorLink: /
     cc:
-      enable: true
+      enable: false
       link: /copyright
     linkList:
       - link: https://github.com/anzhiyu-c/hexo-theme-anzhiyu
@@ -1005,7 +1007,7 @@ pangu:
 # Lazyload (图片懒加载)
 # https://github.com/verlok/vanilla-lazyload
 lazyload:
-  enable: true
+  enable: false
   field: site # site/post
   placeholder:
   blur: true
@@ -1235,11 +1237,11 @@ CDN:
   # The CDN provider of internal scripts (主题内部 js 的 cdn 配置)
   # option: local/elemecdn/jsdelivr/unpkg/cdnjs/onmicrosoft/cbd/anheyu/custom
   # Dev version can only choose. ( dev版的主题只能设置为 local )
-  internal_provider: cbd
+  internal_provider: local
 
   # The CDN provider of third party scripts (第三方 js 的 cdn 配置)
   # option: elemecdn/jsdelivr/unpkg/cdnjs/onmicrosoft/cbd/anheyu/custom
-  third_party_provider: cbd
+  third_party_provider: elemecdn
 
   # Add version number to CDN, true or false
   version: true
@@ -1298,7 +1300,7 @@ CDN:
     # aplayer_css:
     # aplayer_js:
     # meting_js:
-    # meting_api:
+     meting_api: https://api.injahow.cn/meting/?server=:server&type=:type&id=:id&auth=:auth&r=:r
     # prismjs_js:
     # prismjs_lineNumber_js:
     # prismjs_autoloader:
@@ -1313,3 +1315,26 @@ CDN:
     # waterfall:
     # ali_iconfont_css:
     # accesskey_js:
+
+# envelope_comment
+# see https://akilar.top/posts/e2d3c450/
+envelope_comment:
+  enable: true #控制开关
+  custom_pic:
+    cover: https://npm.elemecdn.com/hexo-butterfly-envelope/lib/violet.jpg #信笺头部图片
+    line: https://npm.elemecdn.com/hexo-butterfly-envelope/lib/line.png #信笺底部图片
+    beforeimg: https://npm.elemecdn.com/hexo-butterfly-envelope/lib/before.png # 信封前半部分
+    afterimg: https://npm.elemecdn.com/hexo-butterfly-envelope/lib/after.png # 信封后半部分
+  message: #信笺正文，多行文本，写法如下
+    - 有什么想问的？
+    - 有什么想说的？
+    - 有什么想吐槽的？
+    - 哪怕是有什么想吃的，都可以告诉我哦~
+  bottom: 自动书记人偶竭诚为您服务！ #仅支持单行文本
+  height: #1024px，信封划出的高度
+  path: #【可选】comments 的路径名称。默认为 comments，生成的页面为 comments/index.html
+  front_matter: #【可选】comments页面的 front_matter 配置
+    title: 留言板
+    comments: true
+    top_img: false
+    type: envelope
