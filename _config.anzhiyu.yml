@@ -1225,7 +1225,7 @@ inject:
   head:
      - <meta name="baidu-site-verification" content="codeva-faefBy7uHp" />
      - <script async src="https://www.googletagmanager.com/gtag/js?id=G-WL6KQMHFSK"></script>
-
+     - <script src="/js/head.js"></script>
   bottom:
     # 自定义js
     # - <script src="/js/xxx"></script>
