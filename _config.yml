@@ -103,16 +103,14 @@ theme: anzhiyu
 deploy:
   type: ''
 
-pandoc:
-  args:
-    - '-f'
-    - 'commonmark_x'
-    - '-t'
-    - 'html'
-    - '--mathjax'
-  extensions:
-    - '-implicit_figures'
-  pandoc_path: D:/Pandoc/pandoc.exe
+kramed:
+  gfm: true
+  pedantic: false
+  sanitize: false
+  tables: true
+  breaks: true
+  smartLists: true
+  smartypants: true
 
 mathjax:
   tags: none # or 'ams' or 'all'
