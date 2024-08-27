@@ -1,0 +1,87 @@
+- class_name: 关于页
+  subtitle: 生活明朗，万物可爱✨
+  avatarImg: https://s3plus.meituan.net/v1/mss_550586ef375b493da4aa79bebdfce4fa/csc-apply-file-web/prod/2024-08-26/ca3342b2-2fb7-4f0c-98ce-3bb16696e5c9.avif
+  name: 龙雨杰
+  description: 是一名 学生、独立开发者、博主
+  aboutsiteTips:
+    tips: 追求
+    title1: 源于
+    title2: 热爱而去 感受
+    word:
+      - 学习
+      - 生活
+      - 程序
+      - 体验
+  helloAbout: Hello there!
+  skillsTips:
+    tips: 技能
+    title: 开启创造力
+  careers:
+    tips: 生涯
+    title: 无限进步
+    item:
+      - EDU,软件技术专业
+    img: https://s3plus.meituan.net/v1/mss_550586ef375b493da4aa79bebdfce4fa/csc-apply-file-web/prod/2024-08-26/88f327e5-518e-4bd6-8b1a-2c45ef6ff9ae.avif
+  statistic:
+    link: /archives
+    text: 文章隧道
+    cover: https://s3plus.meituan.net/v1/mss_550586ef375b493da4aa79bebdfce4fa/csc-apply-file-web/prod/2024-08-26/c971307b-708a-4c9e-88bf-c6fa2672b174.avif
+  map:
+    title: 我现在住在
+    StrengthenTitle: 中国，燕郊
+    background: https://s3plus.meituan.net/v1/mss_550586ef375b493da4aa79bebdfce4fa/csc-apply-file-web/prod/2024-08-26/bbef1716-b9d8-418a-836e-89c7939fcdbc.avif
+    backgroundDark: https://s3plus.meituan.net/v1/mss_550586ef375b493da4aa79bebdfce4fa/csc-apply-file-web/prod/2024-08-26/07817dff-75d6-4f4a-aa59-627d5de908cb.avif
+  selfInfo:
+    selfInfoTips1: 生于
+    selfInfoContentYear: 2004
+    selfInfoTips2: 邯郸科技
+    selfInfoContent2: 软件技术
+    selfInfoTips3: 现在职业
+    selfInfoContent3: 大一新生👨‍🎓
+  personalities:
+    author_name: 调停者
+    personality_type: INFP-A
+    photo_url: 
+    personality_img: https://cdn.jsdelivr.net/gh/SurpriseLon/my-website@master/Untitled-1.svg
+    name_url: https://www.16personalities.com/ch/infp-%E4%BA%BA%E6%A0%BC
+  maxim:
+    maxim_tips: 座右铭
+    maxim_top: 生活明朗，
+    maxim_bottom: 万物可爱。
+  buff:
+    buff_tips: 特长
+    buff_top: 脑回路新奇的 酸菜鱼
+    buff_bottom: 二次元指数 MAX
+  game:
+    game_tips: 爱好游戏
+    game_title: 黑神话悟空
+    game_uid: "DragonJay"
+    game_bg: https://s3plus.meituan.net/v1/mss_550586ef375b493da4aa79bebdfce4fa/csc-apply-file-web/prod/2024-08-26/5c5ec9a3-bc2b-483c-b860-77f7f9a4ef03.avif
+  comic:
+    comic_tips: 爱好番剧
+    comic_title: 追番
+    comic_list:
+      - name: 伍六七之暗影宿命
+        href: https://www.bilibili.com/bangumi/media/md28412536
+        cover: https://s3plus.meituan.net/v1/mss_550586ef375b493da4aa79bebdfce4fa/csc-apply-file-web/prod/2024-08-26/6acbd90c-eb8d-4335-a6b6-247f62c78afd.avif
+      - name: 大理寺日志
+        href: https://www.bilibili.com/bangumi/media/md28227527
+        cover: https://s3plus.meituan.net/v1/mss_550586ef375b493da4aa79bebdfce4fa/csc-apply-file-web/prod/2024-08-26/da6303a7-1242-4706-ae39-637c10e089bd.avif
+      - name: 万圣街
+        href: https://www.bilibili.com/bangumi/media/md28235589
+        cover: https://s3plus.meituan.net/v1/mss_550586ef375b493da4aa79bebdfce4fa/csc-apply-file-web/prod/2024-08-26/b79528ef-04ef-42c2-a5fa-e510f23b0791.avif
+      - name: 成龙历险记
+        href: https://www.bilibili.com/bangumi/media/md20261822
+        cover: https://s3plus.meituan.net/v1/mss_550586ef375b493da4aa79bebdfce4fa/csc-apply-file-web/prod/2024-08-26/e4ba89ac-7022-4238-87f6-1cd5daaeda9f.avif
+  like:
+    like_tips: 关注偏好
+    like_title: 学习
+    like_bg: https://s3plus.meituan.net/v1/mss_550586ef375b493da4aa79bebdfce4fa/csc-apply-file-web/prod/2024-08-26/bdea6242-899a-436f-89c3-501102bcab3f.avif
+    like_bottom: （づ￣3￣）づ╭❤～
+  music:
+    music_tips: 音乐偏好
+    music_title: 摇滚、节奏、华语流行
+    music_bg: https://p2.music.126.net/Mrg1i7DwcwjWBvQPIMt_Mg==/79164837213438.jpg
+    music_link: /music
+
+  extra: false
